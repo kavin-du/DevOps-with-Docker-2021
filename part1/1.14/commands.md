@@ -1,0 +1,9 @@
+### front end command:
+
+`docker build . -t example-frontend && docker run -it -p 5000:5000 --rm example-frontend`
+
+
+### backend command:
+
+`docker build . -t example-backend && docker run -it --rm -p 8080:8080 example-backend`
+
