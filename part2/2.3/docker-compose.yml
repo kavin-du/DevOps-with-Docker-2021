@@ -1,0 +1,12 @@
+version: '3.5'
+
+services: 
+  example-backend:
+    build: /mnt/01D281C430D4EF00/practice/docker/material-applications/example-backend
+    ports:
+      - 8080:8080
+  
+  example-frontend:
+    build: /mnt/01D281C430D4EF00/practice/docker/material-applications/example-frontend
+    ports: 
+      - 5000:5000
